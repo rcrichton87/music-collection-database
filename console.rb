@@ -14,9 +14,11 @@ artist2.save
 
 album1 = Album.new ({'title' => 'Blue n Green', 'genre' => 'Jazz', 'artist_id' => artist1.id})
 album2 = Album.new ({'title' => 'Thriller', 'genre' => 'Pop', 'artist_id' => artist2.id})
+album3 = Album.new ({'title' => 'Bad', 'genre' => 'Pop', 'artist_id' => artist2.id})
 
 album1.save
 album2.save
+album3.save
 
 binding.pry
 nil
